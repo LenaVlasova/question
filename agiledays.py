@@ -51,7 +51,7 @@ def save_into_csv(qwe_1, qwe_2, qwe_3, qwe_4, qwe_5, qwe_6, qwe_7, qwe_8, qwe_9,
     worksheet = sheet.get_worksheet(0)
     if st.button('Отправить данные'):
         worksheet.append_row([qwe_1, qwe_2, qwe_3, qwe_4, qwe_5, qwe_6, qwe_7, qwe_8, qwe_9, qwe_10, qwe_12, qwe_13, qwe_14, qwe_15, qwe_16, qwe_17, qwe_19])
-        st.write('Submitted to database!')
+        st.write('Данные добавлены в базу! Спасибо за прохождение опроса')
 
 save_into_csv(qwe_1, qwe_2, qwe_3, qwe_4, qwe_5, qwe_6, qwe_7, qwe_8, qwe_9, qwe_10, qwe_12, qwe_13, qwe_14, qwe_15, qwe_16, qwe_17, qwe_19)
 
